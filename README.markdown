@@ -18,6 +18,7 @@ Command | Eh?
 Command | Huh?
 --- | ---
 `$mod` + d | dmenu
+`$mod` + `Shift` + `e` | Exit i3
 `$mod` + `Shift` + `q` | Quit container
 `$mod` + `Shift` + `Space` | Toggle Float mode
 
