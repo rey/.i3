@@ -18,6 +18,5 @@ client.background       #ffffff
 
 #i3bar config
 bar {
-    # Set position to the top
     position top
 }
