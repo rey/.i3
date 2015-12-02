@@ -6,3 +6,7 @@ focus_follows_mouse no
 
 # Layout mode for new containers
 workspace_layout tabbed
+
+bar {
+  status_command i3status
+}
