@@ -3,3 +3,6 @@ set $mod Mod1
 
 # Window focus shouldn't follow my mouse
 focus_follows_mouse no
+
+# Layout mode for new containers
+workspace_layout tabbed
