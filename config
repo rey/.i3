@@ -8,5 +8,15 @@ focus_follows_mouse no
 workspace_layout tabbed
 
 bar {
+  position top
   status_command i3status
+  colours {
+    background #ff66cc
+    statusline #ffffff
+    separator #ffffff
+    focused_workspace #ff66cc #ffffff #ff66cc
+    active_workspace #ffffff #ffffff #ff66cc
+    inactive_workspace #ff66cc #ff66cc #ffffff
+    urgent_workspace #ffffff #ff66cc #ffffff
+  }
 }
