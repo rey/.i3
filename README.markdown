@@ -2,6 +2,14 @@
 
 My `$mod` key is currently the `Alt` key.
 
+## Restart, reload and exit
+
+Command | Eh?
+--- | ---
+`$mod` + `Shift` + `r` | Restart
+`$mod` + `Shift` + `w` | Reload
+`$mod` + `Shift` + `e` | Exit
+
 ## Moving about
 
 Or use arrow keys `¯\_(ツ)_/¯`
