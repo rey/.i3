@@ -7,6 +7,21 @@ focus_follows_mouse no
 # Layout mode for new containers
 workspace_layout tabbed
 
+# New windows don't have borders
+new_window none
+
+# Floating windows do have borders
+new_float pixel 1
+
+# class                 border  backgr. text    indicator
+client.focused          #ffffcc #ffffcc #000000 #000000
+client.focused_inactive #333333 #5f676a #ffffff #484e50
+client.unfocused        #333333 #222222 #888888 #292d2e
+client.urgent           #2f343a #900000 #ffffff #900000
+client.placeholder      #000000 #0c0c0c #ffffff #000000
+
+client.background       #ffffff
+
 # Bindings
 
 # Change focus
