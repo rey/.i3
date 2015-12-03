@@ -7,6 +7,15 @@ focus_follows_mouse no
 # Layout mode for new containers
 workspace_layout tabbed
 
+# Bindings
+
+# restart
+bindsym $mod+shift+r restart
+# reload
+bindsym $mod+shift+c restart
+# exit
+bindsym $mod+shift+e exec "i3-nagbar -t warning -m 'Do you want to exit?' -b 'Yes' 'i3-msg exit'"
+
 bar {
   position top
   status_command i3status
