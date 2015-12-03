@@ -16,11 +16,10 @@ bindsym $mod+w layout tabbed
 # toggle split
 bindsym $mod+e layout split
 
-
+# reload
+bindsym $mod+shift+c reload
 # restart
 bindsym $mod+shift+r restart
-# reload
-bindsym $mod+shift+c restart
 # exit
 bindsym $mod+shift+e exec "i3-nagbar -t warning -m 'Do you want to exit?' -b 'Yes' 'i3-msg exit'"
 
