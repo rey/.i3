@@ -12,9 +12,9 @@ workspace_layout tabbed
 # stack
 bindsym $mod+s layout stacking
 # tab
-bindsym $mod+s layout tabbed
+bindsym $mod+w layout tabbed
 # toggle split
-bindsym $mod+s layout split
+bindsym $mod+e layout split
 
 
 # restart
