@@ -9,6 +9,14 @@ workspace_layout tabbed
 
 # Bindings
 
+# stack
+bindsym $mod+s layout stacking
+# tab
+bindsym $mod+s layout tabbed
+# toggle split
+bindsym $mod+s layout split
+
+
 # restart
 bindsym $mod+shift+r restart
 # reload
