@@ -24,14 +24,17 @@ client.background       #cfcfcf
 
 # Bindings
 
-# Start a term                           
+# Start a term
 bindsym $mod+Return exec i3-sensible-terminal
 
 # Trigger i3-input
 bindsym $mod+i exec i3-input
 
 # Trigger dmenu
-bindsym $mod+d exec dmenu_run             
+bindsym $mod+d exec dmenu_run
+
+# Kill focused window
+bindsym $mod+Shift+q kill
 
 # Change focus
 bindsym $mod+Up move up
