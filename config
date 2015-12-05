@@ -13,12 +13,19 @@ new_window pixel 1
 # Floating windows do have borders
 new_float pixel 1
 
-# class                 border  backgr. text    indicator
-client.focused          #d9cfc1 #d9cfc1 #222222 #000000
-client.focused_inactive #ffffcc #ffffcc #000000 #000000
-client.unfocused        #222222 #222222 #888888 #888888
-client.urgent           #2f343a #900000 #ffffff #900000
-#client.placeholder      #000000 #0c0c0c #ffffff #000000
+# colour variables
+set $colour_beige #d9cfc1
+set $colour_black #222222
+set $colour_blue #80a1c1
+set $colour_light_grey #888888
+set $colour_white #ffffff
+
+# thing border background text indicator
+client.focused $colour_beige $colour_beige $colour_black #000000
+client.focused_inactive $colour_beige $colour_beige $colour_black #000000
+client.unfocused $colour_black $colour_black $colour_light_grey $colour_light_grey
+client.urgent #2f343a #900000 #ffffff #900000
+#client.placeholder #000000 #0c0c0c #ffffff #000000
 
 client.background       #cfcfcf
 
@@ -91,12 +98,13 @@ bar {
   status_command i3status
   position top
   colors {
-    background #80a1c1
-    statusline #ffffff
-    separator #ffffff
-    focused_workspace #80a1c1 #ffffff #80a1c1
-    active_workspace #ffffff #ffffff #80a1c1
-    inactive_workspace #80a1c1 #80a1c1 #ffffff
-    urgent_workspace #ffffff #80a1c1 #ffffff
+    background $colour_blue
+    statusline $colour_white
+    separator $colour_white
+    # thing border background text
+    focused_workspace $colour_blue $colour_white $colour_blue
+    active_workspace $colour_white $colour_white $colour_blue
+    inactive_workspace $colour_blue $colour_blue $colour_white
+    urgent_workspace $colour_white $colour_blue $colour_white
   }
 }
