@@ -14,7 +14,7 @@ new_window pixel 1
 new_float pixel 1
 
 # class                 border  backgr. text    indicator
-client.focused          #d9cfc1 #d9cfc1 #202020 #000000
+client.focused          #d9cfc1 #d9cfc1 #222222 #000000
 client.focused_inactive #ffffcc #ffffcc #000000 #000000
 client.unfocused        #222222 #222222 #888888 #888888
 client.urgent           #2f343a #900000 #ffffff #900000
