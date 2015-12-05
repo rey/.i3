@@ -14,7 +14,7 @@ new_window pixel 1
 new_float pixel 1
 
 # class                 border  backgr. text    indicator
-client.focused          #ffffcc #ffffcc #000000 #000000
+client.focused          #d9cfc1 #d9cfc1 #202020 #000000
 client.focused_inactive #ffffcc #ffffcc #000000 #000000
 client.unfocused        #222222 #222222 #888888 #888888
 client.urgent           #2f343a #900000 #ffffff #900000
@@ -91,12 +91,12 @@ bar {
   status_command i3status
   position top
   colors {
-    background #ff66cc
+    background #80a1c1
     statusline #ffffff
     separator #ffffff
-    focused_workspace #ff66cc #ffffff #ff66cc
-    active_workspace #ffffff #ffffff #ff66cc
-    inactive_workspace #ff66cc #ff66cc #ffffff
-    urgent_workspace #ffffff #ff66cc #ffffff
+    focused_workspace #80a1c1 #ffffff #80a1c1
+    active_workspace #ffffff #ffffff #80a1c1
+    inactive_workspace #80a1c1 #80a1c1 #ffffff
+    urgent_workspace #ffffff #80a1c1 #ffffff
   }
 }
