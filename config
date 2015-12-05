@@ -18,7 +18,7 @@ client.focused          #ffffcc #ffffcc #000000 #000000
 client.focused_inactive #ffffcc #ffffcc #000000 #000000
 client.unfocused        #222222 #222222 #888888 #888888
 client.urgent           #2f343a #900000 #ffffff #900000
-client.placeholder      #000000 #0c0c0c #ffffff #000000
+#client.placeholder      #000000 #0c0c0c #ffffff #000000
 
 client.background       #cfcfcf
 
@@ -51,8 +51,8 @@ bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Do you want to exit?' -b 'Yes' 'i3-msg exit'"
 
 bar {
-  position top
   status_command i3status
+  position top
   colors {
     background #ff66cc
     statusline #ffffff
