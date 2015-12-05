@@ -8,7 +8,7 @@ focus_follows_mouse no
 workspace_layout tabbed
 
 # New windows don't have borders
-new_window none
+new_window pixel 1
 
 # Floating windows do have borders
 new_float pixel 1
