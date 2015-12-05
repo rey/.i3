@@ -20,6 +20,9 @@ set $colour_offblack #222222
 set $colour_blue #80a1c1
 set $colour_light_grey #888888
 set $colour_white #ffffff
+set $colour_red #ba3f1d
+set $colour_brown #a77e58
+set $colour_yellow #eee3ab
 
 # thing border background text indicator
 client.focused $colour_beige $colour_beige $colour_offblack $colour_black
