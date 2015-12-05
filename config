@@ -40,7 +40,7 @@ bindsym $mod+Shift+q kill
 bindsym $mod+Up move up
 bindsym $mod+Right move right
 bindsym $mod+Down move down
-bindsym $mod+Left move keft
+bindsym $mod+Left move left
 
 # Move focused window
 bindsym $mod+Shift+Up move up
