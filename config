@@ -1,5 +1,21 @@
+# VARIABLES
+
 # Set Alt to be the modifier key
 set $mod Mod1
+
+# Colours
+set $colour_beige #d9cfc1
+set $colour_black #000000
+set $colour_offblack #222222
+set $colour_blue #80a1c1
+set $colour_light_grey #888888
+set $colour_white #ffffff
+set $colour_red #ba3f1d
+set $colour_brown #a77e58
+set $colour_yellow #eee3ab
+
+
+# STUFF
 
 # Window focus shouldn't follow my mouse
 focus_follows_mouse no
@@ -13,27 +29,17 @@ new_window pixel 1
 # Floating windows do have borders
 new_float pixel 1
 
-# colour variables
-set $colour_beige #d9cfc1
-set $colour_black #000000
-set $colour_offblack #222222
-set $colour_blue #80a1c1
-set $colour_light_grey #888888
-set $colour_white #ffffff
-set $colour_red #ba3f1d
-set $colour_brown #a77e58
-set $colour_yellow #eee3ab
-
+# Window decorations
 # thing border background text indicator
 client.focused $colour_beige $colour_beige $colour_offblack $colour_black
 client.focused_inactive $colour_beige $colour_beige $colour_offblack $colour_black
 client.unfocused $colour_black $colour_offblack $colour_light_grey $colour_light_grey
 client.urgent #2f343a #900000 $colour_white #900000
 #client.placeholder $colour_black #0c0c0c $colour_white $colour_black
-
 client.background       #cfcfcf
 
-# Bindings
+
+# BINDINGS
 
 # Start a term
 bindsym $mod+Return exec i3-sensible-terminal
@@ -97,6 +103,8 @@ bindsym $mod+Shift+8 move container to workspace 8
 bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+10 move container to workspace 10
 
+
+# i3BAR
 
 bar {
   status_command i3status
