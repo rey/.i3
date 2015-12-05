@@ -46,7 +46,7 @@ bindsym $mod+Left move keft
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 bindsym $mod+Shift+Down move down
-bindsym $mod+Shift+Left move keft
+bindsym $mod+Shift+Left move left
 
 # stack
 bindsym $mod+s layout stacking
