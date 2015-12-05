@@ -53,7 +53,7 @@ bindsym $mod+s layout stacking
 # tab
 bindsym $mod+w layout tabbed
 # toggle split
-bindsym $mod+e layout split
+bindsym $mod+e layout toggle
 
 # reload
 bindsym $mod+Shift+c reload
