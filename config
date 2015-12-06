@@ -53,6 +53,9 @@ new_float pixel 1
 # Hide borders adjacent to screen edge
 hide_edge_borders both
 
+# Set tray padding
+tray_padding 2
+
 # Window decorations
 # thing border background text indicator
 client.focused $colour_beige $colour_beige $colour_offblack $colour_black
