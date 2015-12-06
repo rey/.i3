@@ -29,7 +29,7 @@ set $workspace_10 10
 
 # ASSIGN
 
-assign [class="Chromium"] $w1
+assign [class="Chromium"] $workspace_1
 
 
 # EXEC
