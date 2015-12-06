@@ -58,7 +58,7 @@ hide_edge_borders both
 client.focused $colour_beige $colour_beige $colour_offblack $colour_black
 client.focused_inactive $colour_beige $colour_beige $colour_offblack $colour_black
 client.unfocused $colour_black $colour_offblack $colour_light_grey $colour_light_grey
-client.urgent $colour_red $colour_red $colour_offblack $colour_black
+client.urgent $colour_yellow $colour_yellow $colour_offblack $colour_black
 #client.placeholder $colour_black #0c0c0c $colour_white $colour_black
 #client.background #cfcfcf
 
