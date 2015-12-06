@@ -71,6 +71,9 @@ bindsym $mod+Return exec i3-sensible-terminal
 # Trigger i3-input
 bindsym $mod+i exec i3-input
 
+# Trigger i3lock
+bindsym $mod+Shift+x exec i3lock --color #a77e58
+
 # Trigger dmenu
 bindsym $mod+d exec dmenu_run
 
