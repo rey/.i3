@@ -34,9 +34,11 @@ assign [class="Chromium"] $workspace_1
 
 # EXEC
 
+# Set the desktop
+exec --no-startup-id feh --bg-scale ~/.i3/desktop.jpg
+
 # Start Chrome
 exec --no-startup-id /usr/bin/chromium-browser
-exec --no-startup-id feh --bg-scale ~/.i3/desktop.jpg
 
 # STUFF
 
