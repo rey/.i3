@@ -26,6 +26,7 @@ set $workspace_8 8
 set $workspace_9 9
 set $workspace_10 10
 
+
 # ASSIGN
 
 assign [class="Chromium"] $w1
