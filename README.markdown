@@ -1,4 +1,36 @@
-# .i3
+# computer
+
+This is my computer
+
+## Test drive with Vagrant
+
+This will run quite happily in a virtual machine:
+
+1. Clone this repo
+2. `vagrant up`
+3. `vagrant ssh`
+
+From the virtual machine:
+
+```
+mkdir computer
+cp -r /vagrant/* ~/computer/.
+cd ~/computer
+source install.sh
+```
+
+Then go to the virtual machine GUI that popped up earlier:
+
+1. Log in with username: `vagrant` and password: `vagrant`
+2. Type `startx`.
+
+***
+
+Here be dragons
+
+***
+
+## .i3
 
 My `$mod` key is currently the `Alt` key.
 
