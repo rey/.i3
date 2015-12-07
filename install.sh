@@ -1,3 +1,9 @@
+echo "CREATE DIRECTORIES"
+echo
+mkdir -p ~/.config/i3
+mkdir ~/.config/i3status
+mkdir -p ~/.config/xfce4/Terminal
+
 echo "CREATE SYMLINKS"
 echo
 ln -s ~/computer/config/i3 ~/.config/i3/config
