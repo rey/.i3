@@ -1,4 +1,19 @@
-# .i3
+# computer
+
+This is my compute.r
+
+## `vagrant up && vagrant ssh`
+
+```
+mkdir computer
+cp -r /vagrant/* ~/computer/.
+cd ~/computer
+source install.sh
+```
+
+Then go to your vm window, log in with `vagrant` and `vagrant` then type `startx`
+
+## .i3
 
 My `$mod` key is currently the `Alt` key.
 
