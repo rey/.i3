@@ -26,10 +26,6 @@ Then go to the virtual machine GUI that popped up earlier:
 
 ***
 
-Here be dragons
-
-***
-
 ## .i3
 
 My `$mod` key is currently the `Alt` key.
