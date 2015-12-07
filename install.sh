@@ -29,6 +29,6 @@ echo "GET DOTS"
 echo
 git clone https://github.com/rey/.dot.git ~/.dot && cd ~/.dot && source install.sh && cd ~
 git clone https://github.com/rey/.vim.git ~/.vim && cd ~/.vim && source install.sh && cd ~
-git clone git clone https://github.com/rey/.tmux.git ~/.tmux && cd ~/.tmux && source install.sh && cd ~
+git clone https://github.com/rey/.tmux.git ~/.tmux && cd ~/.tmux && source install.sh && cd ~
 
 echo "BOOM"
