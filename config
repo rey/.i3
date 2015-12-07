@@ -143,7 +143,7 @@ bar {
   position top
   separator_symbol " | "
   colors {
-    background $colour_brown
+    background $colour_blue
     statusline $colour_white
     separator $colour_white
     # thing border background text
