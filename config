@@ -13,6 +13,7 @@ set $colour_white #ffffff
 set $colour_red #ba3f1d
 set $colour_brown #a77e58
 set $colour_yellow #eee3ab
+set $colour_green #80c1a2
 
 # Workspaces
 set $workspace_1 1: www
