@@ -2,9 +2,15 @@
 
 This is my computer
 
-## Vagrant
+## Test drive with Vagrant
 
-To try this out using Vagrant: `vagrant up && vagrant ssh`
+This will run quite happily in a virtual machine:
+
+1. Clone this repo
+2. `vagrant up`
+3. `vagrant ssh`
+
+From the virtual machine:
 
 ```
 mkdir computer
@@ -13,7 +19,16 @@ cd ~/computer
 source install.sh
 ```
 
-Then go to your vm window, log in with `vagrant` and `vagrant` then type `startx`
+Then go to the virtual machine GUI that popped up earlier:
+
+1. Log in with username: `vagrant` and password: `vagrant`
+2. Type `startx`.
+
+***
+
+Here be dragons
+
+***
 
 ## .i3
 
