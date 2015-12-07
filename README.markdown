@@ -34,14 +34,6 @@ Here be dragons
 
 My `$mod` key is currently the `Alt` key.
 
-## About
-
-My config assumes you have the following installed:
-
-```
-sudo apt-get install chromium-browser feh
-```
-
 ## Restart, reload and exit
 
 Command | Eh?
