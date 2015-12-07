@@ -2,7 +2,9 @@
 
 This is my compute.r
 
-## `vagrant up && vagrant ssh`
+## Vagrant
+
+To try this out using Vagrant: `vagrant up && vagrant ssh`
 
 ```
 mkdir computer
