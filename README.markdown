@@ -1,6 +1,6 @@
 # computer
 
-This is my compute.r
+This is my computer
 
 ## Vagrant
 
