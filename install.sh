@@ -2,13 +2,13 @@ echo "CREATE DIRECTORIES"
 echo
 mkdir -p ~/.config/i3
 mkdir ~/.config/i3status
-mkdir -p ~/.config/xfce4/Terminal
+mkdir -p ~/.config/xfce4/terminal
 
 echo "CREATE SYMLINKS"
 echo
 ln -s ~/computer/config/i3 ~/.config/i3/config
 ln -s ~/computer/config/i3status ~/.config/i3status/config
-ln -s ~/computer/config/terminal ~/.config/xfce4/Terminal/terminalrc
+ln -s ~/computer/config/terminal ~/.config/xfce4/terminal/terminalrc
 
 echo "USE OFFICIAL i3 REPO"
 echo
@@ -22,4 +22,4 @@ sudo apt-get update
 sudo apt-get --assume-yes upgrade
 
 echo "INSTALL STUFF"
-sudo apt-get --assume-yes install i3 chromium-browser git saidar tmux tree vim xfce4-terminal xinit
+sudo apt-get --assume-yes install i3 chromium-browser feh git saidar tmux tree vim xfce4-terminal xinit
