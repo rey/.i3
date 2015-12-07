@@ -22,4 +22,13 @@ sudo apt-get update
 sudo apt-get --assume-yes upgrade
 
 echo "INSTALL STUFF"
+echo
 sudo apt-get --assume-yes install i3 chromium-browser feh git saidar tmux tree vim xfce4-terminal xinit
+
+echo "GET DOTS"
+echo
+git clone https://github.com/rey/.dot.git ~/.dot && cd ~/.dot && source install.sh && cd ~
+git clone https://github.com/rey/.vim.git ~/.vim && cd ~/.vim && source install.sh && cd ~
+git clone git clone https://github.com/rey/.tmux.git ~/.tmux && cd ~/.tmux && source install.sh && cd ~
+
+echo "BOOM"
