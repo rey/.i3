@@ -12,7 +12,7 @@ ln -s ~/computer/config/terminal ~/.config/xfce4/terminal/terminalrc
 
 echo "USE OFFICIAL i3 REPO"
 echo
-sudo echo "deb http://debian.sur5r.net/i3/ $(lsb_release -c -s) universe" | sudo tee -a /etc/apt/sources.list
+echo "deb http://debian.sur5r.net/i3/ $(lsb_release -c -s) universe" | sudo tee -a /etc/apt/sources.list
 sudo apt-get update
 sudo apt-get --allow-unauthenticated install sur5r-keyring
 
