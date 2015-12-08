@@ -13,7 +13,7 @@ I eventually hope to switch to using Linux on a full-time basis.
 
 Download and install the
 [Ubuntu minimal ISO](https://help.ubuntu.com/community/Installation/MinimalCD)
-image (I'm currently using `Ubuntu 15.10 Wily Werewolf`).
+image (I'm currently using `Ubuntu 15.04 Vivid Vervet`).
 
 1. Clone the computer repo:
 
@@ -35,7 +35,7 @@ There's a handy `Vagrantfile` that I use to put this together (I'm currently usi
 [VirtualBox](https://www.virtualbox.org) `Version 5.0.10 r104061`).
 
 `vagrant up` will pop open a new VirtualBox window running `ubuntu/wily64` from
-[Vagrant Cloud](https://vagrantcloud.com/ubuntu/boxes/wily64):
+[Vagrant Cloud](https://vagrantcloud.com/ubuntu/boxes/vivid64):
 
 1. Log in with username `vagrant` and password `vagrant`.
 2. `mkdir ~/computer && cp -r /vagrant/* ~/computer/. && cd ~/computer && source install.sh`
