@@ -41,6 +41,9 @@ exec --no-startup-id feh --bg-scale ~/computer/desktop.jpg
 # Start Chrome
 exec --no-startup-id /usr/bin/chromium-browser
 
+# Bring up an empty workspace
+exec --no-startup-id i3-msg "workspace hello"
+
 # STUFF
 
 # Window focus shouldn't follow my mouse
