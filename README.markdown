@@ -2,7 +2,7 @@
 
 ## About
 
-This is my computer.
+This is computer.
 
 The goal of computer is to create a reproducible and lightweight desktop
 environment to run on Ubuntu (or Debian) that's tailored to the way I work.
