@@ -32,7 +32,7 @@ There's a handy `Vagrantfile` that I use to put this together. I'm currently usi
 [Vagrant Cloud](https://vagrantcloud.com/ubuntu/boxes/vivid64):
 
 1. Log in with username `vagrant` and password `vagrant`.
-2. Paste above `curl` command.
+2. Paste the above `curl` command.
 3. `startx` will start the X server.
 
 ---
