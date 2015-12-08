@@ -25,8 +25,8 @@ image (I'm currently using `Ubuntu 15.10 Wily Werewolf`).
 
 ## Develop (or test drive) with [Vagrant](https://www.vagrantup.com)
 
-There's a handy `Vagrantfile` that I use to put this together. I'm currently using
-[VirtualBox](https://www.virtualbox.org) `Version 5.0.10 r104061`.
+There's a handy `Vagrantfile` that I use to put this together (I'm currently using
+[VirtualBox](https://www.virtualbox.org) `Version 5.0.10 r104061`).
 
 `vagrant up` will pop open a new VirtualBox window running `ubuntu/vivid64` from
 [Vagrant Cloud](https://vagrantcloud.com/ubuntu/boxes/vivid64):
