@@ -38,7 +38,7 @@ There's a handy `Vagrantfile` that I use to put this together (I'm currently usi
 [Vagrant Cloud](https://vagrantcloud.com/ubuntu/boxes/vivid64):
 
 1. Log in with username `vagrant` and password `vagrant`.
-2. `mkdir computer && cp -r /vagrant/* ~/computer/. && cd ~/computer && source install.sh`
+2. `mkdir ~/computer && cp -r /vagrant/* ~/computer/. && cd ~/computer && source install.sh`
 3. `startx` will start the X server.
 
 ---
