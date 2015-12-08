@@ -15,11 +15,17 @@ Download and install the
 [Ubuntu minimal ISO](https://help.ubuntu.com/community/Installation/MinimalCD)
 image (I'm currently using `Ubuntu 15.10 Wily Werewolf`).
 
-1. Run the following `curl` command which kick off the `install.sh` script:
+1. Clone the computer repo:
+
+  ```
+  git clone https://github.com/rey/computer.git ~/computer
+  ```
+
+2. Run the following `source` command which kick off the `install.sh` script:
 
   ```
   # As always, ensure you understand the script before you run it!
-  curl https://raw.githubusercontent.com/rey/computer/master/install.sh | bash
+  source ~/computer/install.sh
   ```
 2. `startx` will start the X server.
 
