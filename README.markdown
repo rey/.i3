@@ -1,32 +1,46 @@
 # computer
 
-This is my computer
+## About
 
-## Test drive with Vagrant
+This is my computer.
 
-This will run quite happily in a virtual machine:
+The goal of computer is to create a reproducible and lightweight desktop
+environment to run on Ubuntu (or Debian) that's tailored to the way I work.
 
-1. Clone this repo
-2. `vagrant up`
-3. `vagrant ssh`
+I eventually hope to switch to using Linux on a full-time basis.
 
-From the virtual machine:
+## Install
 
-```
-mkdir computer
-cp -r /vagrant/* ~/computer/.
-cd ~/computer
-source install.sh
-```
+Download and install the
+[Ubuntu minimal ISO](https://help.ubuntu.com/community/Installation/MinimalCD)
+image (I'm currently using `Ubuntu 15.10 Wily Werewolf`).
 
-Then go to the virtual machine GUI that popped up earlier:
+1. Run the following `curl` command which kick off the `install.sh` script:
+  ```
+  # As always, ensure you understand the script before you run it!
+  curl https://raw.githubusercontent.com/rey/computer/master/install.sh | bash
+  ```
+2. `startx` will start the X server.
 
-1. Log in with username: `vagrant` and password: `vagrant`
-2. Type `startx`.
+## Develop (or test drive) with [Vagrant](https://www.vagrantup.com)
 
-***
+There's a handy `Vagrantfile` that I use to put this together. I'm currently using
+[VirtualBox](https://www.virtualbox.org) `Version 5.0.10 r104061`.
 
-## .i3
+`vagrant up` will pop open a new VirtualBox window running `ubuntu/vivid64` from
+[Vagrant Cloud](https://vagrantcloud.com/ubuntu/boxes/vivid64):
+
+1. Log in with username `vagrant` and password `vagrant`.
+2. Paste above `curl` command.
+3. `startx` will start the X server.
+
+---
+
+## Documentation
+
+This is mainly for my own benefit.
+
+### .i3
 
 My `$mod` key is currently the `Alt` key.
 
