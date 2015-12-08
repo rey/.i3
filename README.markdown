@@ -16,6 +16,7 @@ Download and install the
 image (I'm currently using `Ubuntu 15.10 Wily Werewolf`).
 
 1. Run the following `curl` command which kick off the `install.sh` script:
+
   ```
   # As always, ensure you understand the script before you run it!
   curl https://raw.githubusercontent.com/rey/computer/master/install.sh | bash
