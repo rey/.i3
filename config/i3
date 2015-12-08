@@ -150,9 +150,9 @@ bar {
     statusline $colour_white
     separator $colour_white
     # thing border background text
-    focused_workspace $colour_blue $colour_white $colour_blue
+    focused_workspace $colour_white $colour_white $colour_blue
     active_workspace $colour_white $colour_white $colour_blue
     inactive_workspace $colour_blue $colour_blue $colour_white
-    urgent_workspace $colour_red $colour_red $colour_white
+    urgent_workspace $colour_white $colour_blue $colour_white
   }
 }
