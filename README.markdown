@@ -28,8 +28,8 @@ image (I'm currently using `Ubuntu 15.10 Wily Werewolf`).
 There's a handy `Vagrantfile` that I use to put this together (I'm currently using
 [VirtualBox](https://www.virtualbox.org) `Version 5.0.10 r104061`).
 
-`vagrant up` will pop open a new VirtualBox window running `ubuntu/vivid64` from
-[Vagrant Cloud](https://vagrantcloud.com/ubuntu/boxes/vivid64):
+`vagrant up` will pop open a new VirtualBox window running `ubuntu/wily64` from
+[Vagrant Cloud](https://vagrantcloud.com/ubuntu/boxes/wily64):
 
 1. Log in with username `vagrant` and password `vagrant`.
 2. Paste the above `curl` command.
