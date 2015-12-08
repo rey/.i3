@@ -32,3 +32,4 @@ git clone https://github.com/rey/.vim.git ~/.vim && cd ~/.vim && source install.
 git clone https://github.com/rey/.tmux.git ~/.tmux && cd ~/.tmux && source install.sh && cd ~
 echo
 echo "BOOM"
+echo

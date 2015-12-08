@@ -15,11 +15,17 @@ Download and install the
 [Ubuntu minimal ISO](https://help.ubuntu.com/community/Installation/MinimalCD)
 image (I'm currently using `Ubuntu 15.10 Wily Werewolf`).
 
-1. Run the following `curl` command which kick off the `install.sh` script:
+1. Clone the computer repo:
+
+  ```
+  git clone https://github.com/rey/computer.git ~/computer
+  ```
+
+2. Run the following `source` command which kick off the `install.sh` script:
 
   ```
   # As always, ensure you understand the script before you run it!
-  curl https://raw.githubusercontent.com/rey/computer/master/install.sh | bash
+  source ~/computer/install.sh
   ```
 2. `startx` will start the X server.
 
@@ -32,7 +38,7 @@ There's a handy `Vagrantfile` that I use to put this together (I'm currently usi
 [Vagrant Cloud](https://vagrantcloud.com/ubuntu/boxes/wily64):
 
 1. Log in with username `vagrant` and password `vagrant`.
-2. Paste the above `curl` command.
+2. `mkdir ~/computer && cp -r /vagrant/* ~/computer/. && cd ~/computer && source install.sh`
 3. `startx` will start the X server.
 
 ---
