@@ -87,3 +87,16 @@ Command | Wat?
 `$mod` + `e` | Toggle split
 `$mod` + `s` | Stack containers
 `$mod` + `w` | Tab containers
+
+---
+
+# Lenovo e11 specifics
+
+```
+# For wireless networking
+sudo apt-get install bcmwl-kernel-source network-manager
+
+# Fix suspend on closing lid
+# Uncomment #HandleLidSwitch=suspend
+sudo vim /etc/systemd/logind.conf
+sudo service systemd-logind restart
