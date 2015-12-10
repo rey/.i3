@@ -1,3 +1,4 @@
+echo
 echo "CREATE DIRECTORIES"
 echo
 mkdir -p ~/.config/i3
