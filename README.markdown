@@ -40,6 +40,11 @@ There's a handy `Vagrantfile` that I use to put this together (I'm currently usi
 2. `mkdir ~/computer && cp -r /vagrant/* ~/computer/. && cd ~/computer && source install.sh`
 3. `startx` will start the X server.
 
+
+## Credits
+
+* [Jethro Clunies-Ross](http://jethro247.tumblr.com/archive) for kindly licensing [his beautiful photo of Port Salut, Haiti](https://github.com/rey/computer/blob/master/desktop.jpg) under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
 ---
 
 ## Documentation
