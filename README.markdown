@@ -12,7 +12,7 @@ I eventually hope to switch to using Linux on a full-time basis.
 ## Install
 
 Download and install
-[Ubuntu Server](http://www.ubuntu.com/download/server) (I'm currently using [`Ubuntu 15.04 Vivid Vervet`](http://releases.ubuntu.com/15.04/ubuntu-15.04-server-amd64.iso)).
+[Ubuntu Server](http://www.ubuntu.com/download/server) (I'm currently using [Ubuntu 15.04 Vivid Vervet](http://releases.ubuntu.com/15.04/ubuntu-15.04-server-amd64.iso)).
 
 1. Clone the computer repo:
 
