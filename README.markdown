@@ -101,9 +101,8 @@ sudo apt-get install bcmwl-kernel-source network-manager
 sudo vim /etc/systemd/logind.conf
 sudo service systemd-logind restart
 
-# Install slack
-sudo apt-get install gconf2 gvfs-bin
-
-# Visit https://slack.com/downloads
-sudo dpkg -i slack-desktop-1.2.6-amd64.deb
+# Fix brightness
+sudo vim /etc/default/grub
+# Add `acpi_osi=` to the `GRUB_CMDLINE_LINUX_DEFAULT` line
+sudo update-grub
 ```
