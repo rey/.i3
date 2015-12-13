@@ -35,9 +35,6 @@ assign [class="Chromium"] $workspace_1
 
 # EXEC
 
-# Ensure that a British keyboard layout is used
-exec --no-startup-id setxkbmap gb
-
 # Set the desktop
 exec --no-startup-id feh --bg-scale ~/computer/desktop.jpg
 
