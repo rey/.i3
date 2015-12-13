@@ -144,9 +144,12 @@ bindsym $mod+Shift+10 move container to workspace $workspace_10
 
 # Lenovo 11e specific bindings
 # TODO: Find somewhere better to put these
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 1 toggle
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 1 -5%
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 1 +5%
+bindsym XF86AudioMute exec --no-startup-id /usr/bin/pactl set-sink-mute 1 toggle
+bindsym XF86AudioLowerVolume exec --no-startup-id /usr/bin/pactl set-sink-volume 1 -5%
+bindsym XF86AudioRaiseVolume exec --no-startup-id /usr/bin/pactl set-sink-volume 1 +5%
+bindsym XF86MonBrightnessDown exec --no-startup-id /usr/bin/xbacklight -dec 10
+bindsym XF86MonBrightnessUp exec --no-startup-id /usr/bin/xbacklight -inc 10
+
 
 
 # i3BAR
