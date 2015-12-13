@@ -89,19 +89,38 @@ Command | Wat?
 
 ---
 
-# Lenovo e11 notes
+# Lenovo 11e notes
+
+TODO: Find somewhere better to put this.
+
+## Wireless networking
 
 ```
-# For wireless networking
-sudo apt-get install bcmwl-kernel-source network-manager
+# Install drivers for BCM4352 802.11ac Wireless Network Adapter
+sudo apt-get install bcmwl-kernel-source
+```
 
-# Fix suspend on closing lid
-# Uncomment #HandleLidSwitch=suspend
+I also found it helpful to install `network-manager`
+
+```
+# For pointy-and-clicky network selection 
+sudo apt-get install network-manager
+```
+
+## Suspend when close laptop lid
+
+```
+# Uncomment `#HandleLidSwitch=suspend`
 sudo vim /etc/systemd/logind.conf
+# Restart `systemd-logind` service
 sudo service systemd-logind restart
+```
 
-# Fix brightness
-sudo vim /etc/default/grub
+## Allow adjustment of screen brightness
+
+```
 # Add `acpi_osi=` to the `GRUB_CMDLINE_LINUX_DEFAULT` line
+sudo vim /etc/default/grub
+# Update grub stuff
 sudo update-grub
 ```
