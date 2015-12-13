@@ -2,6 +2,8 @@
 
 ## About
 
+![computer](https://c1.staticflickr.com/1/596/23104209614_3f84fbbf80_z.jpg)
+
 This is computer.
 
 The goal of computer is to create a reproducible and lightweight desktop
