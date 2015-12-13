@@ -90,7 +90,7 @@ Command | Wat?
 
 ---
 
-# Lenovo e11 specifics
+# Lenovo e11 notes
 
 ```
 # For wireless networking
@@ -100,3 +100,10 @@ sudo apt-get install bcmwl-kernel-source network-manager
 # Uncomment #HandleLidSwitch=suspend
 sudo vim /etc/systemd/logind.conf
 sudo service systemd-logind restart
+
+# Install slack
+sudo apt-get install gconf2 gvfs-bin
+
+# Visit https://slack.com/downloads
+sudo dpkg -i slack-desktop-1.2.6-amd64.deb
+```
