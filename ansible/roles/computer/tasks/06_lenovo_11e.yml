@@ -1,0 +1,32 @@
+# computer > tasks > 06_lenovo_11e.yml
+---
+
+# - name: Determine Linux distribution codename
+#   command: lsb_release -sc
+#   register: release_codename
+
+- name: add restricted component repo
+  apt_repository: repo="deb http://archive.ubuntu.com/ubuntu {{release_codename.stdout}} restricted"
+                  state=present
+                  update_cache=yes
+
+- name: install bcmwl-kernel-source
+  apt: name=bcmwl-kernel-source state=latest
+
+- name: suspend when close laptop lid
+  lineinfile: dest=/etc/systemd/logind.conf
+              regexp="^#HandleLidSwitch=suspend"
+              line="HandleLidSwitch=suspend"
+              backrefs=yes
+              state=present
+  notify:
+    - restart systemd-logind
+
+- name: allow adjustment of screen brightness
+  lineinfile: dest=/etc/default/grub
+              regexp="^GRUB_CMDLINE_LINUX_DEFAULT="""
+              line="GRUB_CMDLINE_LINUX_DEFAULT=\"acpi_osi=\""
+              backrefs=yes
+              state=present
+  notify:
+    - update grub

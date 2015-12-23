@@ -1,0 +1,9 @@
+# computer > tasks > main.yml
+---
+
+- include: 01_upgrade.yml
+- include: 02_create_user.yml
+- include: 03_clone_repo.yml
+- include: 04_link_config.yml
+- include: 05_install_software.yml
+- include: 06_lenovo_11e.yml

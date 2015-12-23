@@ -1,0 +1,38 @@
+# computer > tasks > 05_install_software.yml
+---
+
+- name: install chromium-browser
+  apt: name=chromium-browser state=latest
+
+- name: install curl
+  apt: name=curl state=latest
+
+- name: install feh
+  apt: name=feh state=latest
+
+- name: install git
+  apt: name=git state=latest
+
+- name: install i3
+  apt: name=i3 state=latest
+
+- name: install network-manager
+  apt: name=network-manager state=latest
+
+- name: install saidar
+  apt: name=saidar state=latest
+
+- name: install tmux
+  apt: name=tmux state=latest
+
+- name: install tree
+  apt: name=tree state=latest
+
+- name: install vim
+  apt: name=vim state=latest
+
+- name: install xfce4-terminal
+  apt: name=xfce4-terminal state=latest
+
+- name: install xinit
+  apt: name=xinit state=latest

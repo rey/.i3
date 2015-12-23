@@ -1,0 +1,58 @@
+# computer > tasks > 04_link_config.yml
+---
+
+# set up i3
+- name: create .config/i3 path
+  file: path=/home/rey/.config/i3
+        state=directory
+
+- name: create i3 config file
+  file: path=/home/rey/.config/i3/config
+        state=touch
+
+- name: create i3 symlink
+  file: src=/home/rey/computer/config/i3
+        dest=/home/rey/.config/i3/config
+        state=link
+        force=yes
+
+# set up i3status
+- name: create .config/i3status path
+  file: path=/home/rey/.config/i3status
+        state=directory
+
+- name: create i3status config file
+  file: path=/home/rey/.config/i3status/config
+        state=touch
+
+- name: create i3status symlink
+  file: src=/home/rey/computer/config/i3status
+        dest=/home/rey/.config/i3status/config
+        state=link
+        force=yes
+
+# set up xfce4-terminal
+- name: create .config/xfce4/xfce4/terminal path
+  file: path=/home/rey/.config/xfce4/terminal
+        state=directory
+
+- name: create xfce4-terminal config file
+  file: path=/home/rey/.config/xfce4/terminal/terminalrc
+        state=touch
+
+- name: create xfce4-terminal symlink
+  file: src=/home/rey/computer/config/xfce4-terminal
+        dest=/home/rey/.config/xfce4/terminal/terminalrc
+        state=link
+        force=yes
+
+# set up xinit
+- name: create xinit config file
+  file: path=/home/rey/.xinitrc
+        state=touch
+
+- name: create xinit symlink
+  file: src=/home/rey/computer/config/xinit
+        dest=/home/rey/.xinitrc
+        state=link
+        force=yes

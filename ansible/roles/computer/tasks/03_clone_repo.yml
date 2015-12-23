@@ -1,0 +1,6 @@
+# computer > tasks > 03_clone_repo.yml
+---
+
+- name: git clone
+  git: repo=https://github.com/rey/computer.git
+       dest=/home/rey/computer

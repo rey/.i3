@@ -1,0 +1,8 @@
+# site.yml
+---
+
+- name: apply config to all nodes
+  hosts: all
+  sudo: yes
+  roles:
+    - computer

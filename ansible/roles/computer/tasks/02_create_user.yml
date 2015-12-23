@@ -1,0 +1,10 @@
+# computer > tasks > 02_create_user.yml
+---
+
+- name: create rey
+  user: name=rey
+        shell=/bin/bash
+        state=present
+
+- name: assign keys to rey
+  authorized_key: user=rey key=https://github.com/rey.keys state=present

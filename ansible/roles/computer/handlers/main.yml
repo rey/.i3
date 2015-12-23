@@ -1,0 +1,8 @@
+# computer > handlers > main.yml
+---
+
+- name: restart systemd-logind
+  service: name=systemd-logind state=restarted enabled=yes
+
+- name: update grub
+  command: update-grub

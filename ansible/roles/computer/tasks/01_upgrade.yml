@@ -1,0 +1,17 @@
+# common > tasks > 01_upgrade.yml
+---
+
+- name: Determine Linux distribution codename
+  command: lsb_release -sc
+  register: release_codename
+
+- name: add official i3 repo
+  apt_repository: repo="deb http://debian.sur5r.net/i3/ {{release_codename.stdout}} universe"
+                  state=present
+                  #update_cache=yes
+
+- name: update apt
+  apt: update_cache=yes
+
+- name: upgrade apt
+  apt: upgrade=full
