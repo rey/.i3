@@ -39,9 +39,9 @@ sudo apt-get --assume-yes install i3 chromium-browser feh git saidar tmux tree v
 echo
 echo "GET DOTS"
 echo
-git clone https://github.com/rey/.dot.git ~/.dot && cd ~/.dot && source install.sh && cd ~
-git clone https://github.com/rey/.vim.git ~/.vim && cd ~/.vim && source install.sh && cd ~
-git clone https://github.com/rey/.tmux.git ~/.tmux && cd ~/.tmux && source install.sh && cd ~
+git clone https://github.com/rey/.dot.git ~/.dot && cd ~/.dot && bash install.sh && cd ~
+git clone https://github.com/rey/.vim.git ~/.vim && cd ~/.vim && bash install.sh && cd ~
+git clone https://github.com/rey/.tmux.git ~/.tmux && cd ~/.tmux && bash install.sh && cd ~
 echo
 echo "BOOM"
 echo
