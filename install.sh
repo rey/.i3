@@ -1,3 +1,13 @@
+#!/bin/bash
+
+# install.sh
+# Version 0.1
+# Rey Dhuny
+#
+# ABOUT
+# ==
+# It's not ready yet!
+
 echo
 echo "CREATE DIRECTORIES"
 echo
