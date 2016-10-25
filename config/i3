@@ -44,6 +44,12 @@ exec --no-startup-id feh --bg-scale ~/computer/desktop.jpg
 # Bring up an empty workspace
 # exec --no-startup-id i3-msg "workspace 2"
 
+# Start the handy nm-applet
+exec --no-startup-id nm-applet
+
+# Disable tap-to-click
+exec --no-startup-id "synclient MaxTapTime=0"
+
 
 # STUFF
 
@@ -81,7 +87,8 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+i exec i3-input
 
 # Trigger i3lock
-bindsym $mod+Shift+x exec i3lock -i ~/.i3/desktop.jpg
+# bindsym $mod+Shift+x exec i3lock --image=~/computer/desktop.jpg
+bindsym $mod+Shift+x exec i3lock --colour=ff66cc
 
 # Trigger dmenu
 bindsym $mod+d exec --no-startup-id dmenu_run

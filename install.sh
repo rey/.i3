@@ -35,7 +35,8 @@ sudo apt-get --assume-yes upgrade
 echo
 echo "INSTALL STUFF"
 echo
-sudo apt-get --assume-yes install i3 chromium-browser feh git saidar tmux tree vim xfce4-terminal xinit
+# feh is used to set the wallpaper
+sudo apt-get --assume-yes install i3 chromium-browser feh git saidar tmux tree vim xfce4-terminal xinit network-manager
 echo
 echo "GET DOTS"
 echo
