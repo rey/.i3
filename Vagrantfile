@@ -75,4 +75,11 @@ Vagrant.configure(2) do |config|
   #   sudo apt-get update
   #   sudo apt-get install -y apache2
   # SHELL
+  config.vm.provision "shell", inline: <<-SHELL
+    apt-get update
+    apt-get upgrade
+    # wamerican allows xfce4 to install successfully wat
+    apt-get install --assume-yes chromium-browser git saidar tmux tree vim wamerican
+    sudo apt-get install --assume-yes xfce4
+  SHELL
 end
